@@ -1,0 +1,169 @@
+/* Entire doc layout */
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fjalla One", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*   top nav bar   */
+
+#navbar-img{
+    top: 0;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(124,124,124,1) 35%, rgba(222,77,0,1) 100%);
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-link{
+    display: inline;
+    float: right;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .nav-link:hover {
+    background-color: rgb(124,124,124);
+    color: orange;
+}
+
+/* Container to format all content */
+
+.Container {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+}
+
+/* Header class consisting of name: CAPE AUTO LOGISTICS */
+
+.header {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(126,124,124,1) 35%, rgba(222,77,0,1) 100%);
+    color: black;
+    font-size: 90px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+/* Content class consisting of the about us & paragraphs */
+
+.content {
+    width: 100%;
+    height: 700px;
+    padding: 10px 0px;
+}
+
+/* About us section */
+
+#about{
+    background-image: url("Background Imgs/hakon-sataoen-yQ9mZzBdDAM-unsplash.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#about_us_heading{
+    padding-left: 50px;
+    text-align: center;
+}
+
+#about_us_paragraphs{
+    text-align: left;
+    margin-top: 0px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.paragraph{
+    display: inline-block;
+}
+
+
+/* Vehicle Brands Section */
+
+#veh{
+    background-image: url("Background Imgs/brandon-atchison-ndrjunfmqwY-unsplash.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#vehicles_heading{
+    padding-left: 50px;
+    text-align: center;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid{
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Finance Section */
+
+#fin{
+    background-image: url("Background Imgs/jeff-tumale-AWjAGG-u_eE-unsplash.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#finance_heading{
+    text-align: center;
+    padding-left: 50px;
+}
+
+#finance_paragraphs{
+    font-size: 20px;
+    padding-left: 50px;
+    margin: 0;
+}
+
+/* Contact Us Section */
+
+#contact{
+    background-image: url("Background Imgs/tim-meyer-e1-XD7an6oI-unsplash.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+#contact_heading{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.grid_container_contact_us{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+#contact_us_paragraphs{
+    padding-left: 50px;
+}
